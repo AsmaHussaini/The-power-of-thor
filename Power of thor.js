@@ -10,6 +10,9 @@ while (true) {
     var remainingTurns = parseInt(readline());
     var directionX = "";
     var directionY = "";
+    // Write an action using print()
+    // To debug: printErr('Debug messages...');
+    if(thorX > lightX){
         directionX = "W";
         thorX --;
     }else if(thorX < lightX) {
@@ -27,3 +30,6 @@ while (true) {
     }else{
         directionY = "";
     }
+    // A single line providing the move to be made: N NE E SE S SW W or NW
+    console.log(directionY + directionX);
+}

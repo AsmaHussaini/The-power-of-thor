@@ -11,3 +11,12 @@ while (true) {
     var directionX = "";
     var directionY = "";
 
+    if(thorX > lightX){
+        directionX = "W";
+        thorX --;
+    }else if(thorX < lightX) {
+        directionX = "E";
+        thorX ++;
+    }else{
+        directionX = "";
+    }

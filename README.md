@@ -1,8 +1,9 @@
 # The power of thor
 **The Goal**
 
-The program allow Thor to reach the light of power. Rules Thor moves on a map which is 40 wide by 18 high.The coordinates (X and Y)
-start at the top left! This means the most top left cell has the coordinates "X=0,Y=0" and the most bottom right one has the coordinates "X=39,Y=17".
+The program allow Thor to reach the light of power. 
+Rules: Thor moves on a map which is 40 wide by 18 high.The coordinates (X and Y) start at the top left!
+This means the most top left cell has the coordinates "X=0,Y=0" and the most bottom right one has the coordinates "X=39,Y=17".
 
 The variable lightX: the X position of the light of power that Thor must reach.
 The variable lightY: the Y position of the light of power that Thor must reach. 

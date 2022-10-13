@@ -10,8 +10,6 @@ while (true) {
     var remainingTurns = parseInt(readline());
     var directionX = "";
     var directionY = "";
-
-    if(thorX > lightX){
         directionX = "W";
         thorX --;
     }else if(thorX < lightX) {
@@ -19,4 +17,13 @@ while (true) {
         thorX ++;
     }else{
         directionX = "";
+    }
+    if(thorY > lightY){
+        directionY = "N";
+        thorY --;
+    }else if(thorY < lightY){
+        directionY = "S";
+        thorY ++;
+    }else{
+        directionY = "";
     }

@@ -6,5 +6,8 @@ var initialTY = parseInt(inputs[3]); // Thor's starting Y position
 var thorX = initialTX;
 var thorY = initialTY;
 // game loop
-
+while (true) {
+    var remainingTurns = parseInt(readline());
+    var directionX = "";
+    var directionY = "";
 

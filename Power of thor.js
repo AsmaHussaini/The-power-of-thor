@@ -20,6 +20,20 @@ while (true) {
         thorX ++;
     }else{
         directionX = "";
+        
+    var remainingTurns = parseInt(readline());
+    var directionX = "";
+    var directionY = "";
+    // Write an action using print()
+    // To debug: printErr('Debug messages...');
+    if(thorX > lightX){
+        directionX = "W";
+        thorX --;
+    }else if(thorX < lightX) {
+        directionX = "E";
+        thorX ++;
+    }else{
+        direc
     }
     if(thorY > lightY){
         directionY = "N";
